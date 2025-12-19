@@ -1,0 +1,34 @@
+# CRITICAL: We must upgrade the 'google-cloud' libraries to match the new Protobuf version pulled by Tunix.
+# Otherwise, we get 'Descriptors cannot be created directly'.
+
+numpy>=2.0
+ml_dtypes>=0.4.0
+
+# Protocol Buffers (Tunix needs ~5.x, but we need the SDKs to match)
+protobuf>=4.25.3
+google-api-python-client>=2.0.0
+google-cloud-storage>=2.0.0
+google-cloud-automl>=2.0.0
+google-cloud-bigquery>=3.0.0
+
+# JAX/Flax
+jax
+flax==0.12.0
+orbax-checkpoint
+optax
+
+# Google Tunix
+google-tunix[prod]==0.1.3
+
+# Data & Ecosystem
+kagglehub
+ipywidgets
+datasets
+wandb==0.22.0
+grain
+tensorboardX
+
+# TensorFlow
+tensorflow
+tensorflow_datasets
+transformers

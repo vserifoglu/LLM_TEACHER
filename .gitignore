@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Specific / ML
+wandb/
+.wandb
+lightning_logs/
+*.tfrecord
+/data/
+/datasets/
+/models/
+/checkpoints/
+/logs/
+/outputs/
+/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
